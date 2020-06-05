@@ -87,7 +87,8 @@ header button:active
 }
 .banner .banner-text ul li i:hover
 {
-    transform: rotateY(180deg);
+    transform: translateY(-15px);
+    color: white;
 }
 .banner .carousel-indicators
 {
@@ -178,7 +179,7 @@ header button:active
 .pt-75{ padding-top: 75px;}
 .contact form .btn:hover
 {
-    background-color: rgba(252,219,0,0.8);
+    background-color: rgba(255,255,255,1);
 }
 .contact .fb-ico,.contact .tw-ico,.contact .go-ico,.contact .pi-ico
 {
@@ -192,7 +193,23 @@ header button:active
 }
 .contact .fb-ico:hover,.contact .tw-ico:hover,.contact .go-ico:hover,.contact .pi-ico:hover
 {
-    transform: rotate(360deg);
+    transform: rotate(360deg) scale(1.2,1.2);
+}
+.contact .fb-ico:hover i
+{
+    color: #3b5998;
+}
+.contact .tw-ico:hover i
+{
+    color: #00acee;
+}
+.contact .go-ico:hover i
+{
+    color: #db4a39;
+}
+.contact .pi-ico:hover i
+{
+    color: #c8232c;
 }
 .contact .pi-ico
 {
@@ -224,25 +241,3 @@ footer a:hover
     color: #fcdb00;
 }
 /*footer end*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
